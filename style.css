@@ -1,0 +1,42 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar__auth {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.navbar__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+.navbar__link {
+  display: flex;
+}
+.icon {
+  align-items: center;
+}
+.navbar__logo {
+  font-size: larger;
+  font-weight: bolder;
+}
+.wrapNav {
+  background: radial-gradient(circle at 20% 40%, #d8ebf9, #b6e4fb, #84cefd);
+  height: 80vh;
+}
+button {
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.navbar__start {
+  background-color: rgb(122, 43, 226);
+  color: white;
+}
