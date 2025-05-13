@@ -125,3 +125,38 @@ button {
 .text {
   font-size: larger;
 }
+@media (max-width: 900px) {
+  .image {
+    display: none;
+  }
+  .wrapContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    height: 70vh;
+  }
+  .navbar__links {
+    display: none;
+  }
+  .navbar__auth {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: larger;
+    letter-spacing: normal;
+  }
+  .wrapNav {
+    padding: 10px 15px;
+  }
+  .description {
+    font-size: smaller;
+  }
+  .navbar__logo {
+    font-size: small;
+  }
+}
