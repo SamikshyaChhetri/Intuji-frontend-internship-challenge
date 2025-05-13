@@ -1,6 +1,10 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 .navbar__auth {
   display: flex;
   justify-content: space-between;
@@ -14,7 +18,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 5rem;
+  /* padding: 2rem 5rem; */
 }
 .navbar__link {
   display: flex;
@@ -28,15 +32,96 @@
 }
 .wrapNav {
   background: radial-gradient(circle at 20% 40%, #d8ebf9, #b6e4fb, #84cefd);
-  height: 80vh;
+  height: 100vh;
+  padding: 2rem 5rem;
+  position: relative;
+  z-index: -10 !important;
 }
 button {
   padding: 12px 20px;
   outline: none;
   border: none;
   border-radius: 10px;
+  background-color: transparent;
 }
 .navbar__start {
-  background-color: rgb(122, 43, 226);
+  background-color: rgb(64, 10, 227);
   color: white;
+}
+.service {
+  display: flex;
+  gap: 10px;
+}
+.guidelines {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.getStartBtn {
+  background-color: rgb(64, 10, 227);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  height: fit-content;
+}
+.work {
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+}
+.wrapContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  justify-content: center;
+  height: 70vh;
+}
+.title {
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.description {
+  color: rgb(86, 86, 86);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  position: relative;
+  z-index: -1;
+}
+.img2 {
+  position: absolute;
+  right: 10rem;
+  top: 7rem;
+}
+.img1 {
+  position: absolute;
+  right: 20rem;
+}
+.companies {
+  height: 250px;
+  z-index: 10;
+  background-color: #f5f6f8;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.wrapCompanies {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.companyName {
+  height: 25px;
+}
+.text {
+  font-size: larger;
 }
