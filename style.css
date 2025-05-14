@@ -113,10 +113,12 @@ button {
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 .wrapCompanies {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 .companyName {
@@ -144,7 +146,6 @@ button {
     display: none;
   }
 }
-
 @media (max-width: 400px) {
   .title {
     font-size: larger;
@@ -158,5 +159,26 @@ button {
   }
   .navbar__logo {
     font-size: small;
+  }
+  .companyName {
+    height: 15px;
+    /* margin: 1rem; */
+  }
+  .image {
+    display: flex;
+    position: relative;
+  }
+  .img1 {
+    right: 12rem;
+    height: 400px;
+    bottom: -17rem;
+  }
+  .img2 {
+    right: 7rem;
+    height: 400px;
+    top: 27rem;
+  }
+  .text {
+    font-size: medium;
   }
 }
