@@ -189,6 +189,36 @@ button {
   font-size: 22px;
   font-weight: 800;
 }
+
+.wrapper3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.description2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.chooseUs {
+  font-size: 14px;
+  color: #3734a9;
+  font-weight: 700;
+}
+.title2 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+}
+.line {
+  color: black;
+  border: 1px solid rgb(190, 187, 187);
+}
+.wrapper4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 @media (max-width: 900px) {
   .image {
     display: none;
