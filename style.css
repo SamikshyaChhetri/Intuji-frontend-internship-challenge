@@ -44,6 +44,7 @@ body {
   border: none;
   border-radius: 10px;
   background-color: transparent;
+  font-size: 14px;
 }
 .navbar__start {
   background-color: rgb(64, 10, 227);
@@ -51,7 +52,15 @@ body {
   padding: 12px 20px;
   border: none;
   color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+.navbar__start:hover {
+  background-color: rgb(150, 128, 215) !important;
+  transform: translateY(-3px) !;
+}
+
 .service {
   display: flex;
   gap: 10px;
@@ -254,6 +263,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+.totle {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  border-radius: 10px;
 }
 .wrapper5 {
   display: flex;
