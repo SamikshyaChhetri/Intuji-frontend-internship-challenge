@@ -469,7 +469,6 @@ body {
   flex-direction: column;
   gap: 1rem;
   width: 750px;
-  height: 512px;
 }
 .p2 {
   font-size: 16px;
@@ -837,19 +836,9 @@ input {
   }
 
   .image {
-    display: flex;
-    position: relative;
+    display: none;
   }
-  .img1 {
-    right: 12rem;
-    height: 400px;
-    bottom: -17rem;
-  }
-  .img2 {
-    right: 7rem;
-    height: 400px;
-    top: 27rem;
-  }
+
   .text {
     font-size: medium;
   }
