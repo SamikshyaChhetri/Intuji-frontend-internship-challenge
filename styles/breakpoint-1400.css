@@ -1,0 +1,33 @@
+@media (max-width: 1400px) {
+  .description1 {
+    width: 60%;
+  }
+  .content2 {
+    width: 40%;
+  }
+  .wrapper3 {
+    flex-direction: column;
+  }
+  .bg {
+    display: none;
+  }
+
+  .transaction-img {
+    width: 90vw;
+    height: 300px;
+  }
+  .content3 {
+    width: auto;
+  }
+  .break {
+    display: none;
+  }
+  .blog2Wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+  }
+  .blog2 {
+    width: 100% !important;
+  }
+}

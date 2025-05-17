@@ -1,0 +1,79 @@
+@media (max-width: 600px) {
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1, auto) !important;
+    justify-content: space-between;
+    gap: 20px;
+    row-gap: 30px;
+  }
+  .aboutWrapper {
+    padding: 20px 40px !important;
+  }
+
+  .part1 {
+    width: 90vw;
+  }
+  .iconSet {
+    justify-content: start;
+    gap: 10px;
+  }
+  input {
+    width: auto;
+  }
+  .wrapQuestions {
+    margin-top: 20px;
+  }
+  .title {
+    font-size: xx-large;
+    letter-spacing: normal;
+  }
+  .wrapNav {
+    padding: 10px 15px;
+  }
+  .description {
+    font-size: smaller;
+  }
+  .navbar__logo {
+    font-size: small;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .text {
+    font-size: medium;
+  }
+  .item {
+    width: 60vw;
+  }
+  .wrapper {
+    padding: 20px;
+  }
+  .wrapper2 {
+    justify-content: center !important;
+  }
+  .wrapper6 {
+    padding: 1rem;
+  }
+  .people-img {
+    width: 100px;
+    height: 145px;
+  }
+  .testimonials-des {
+    padding-top: 30px;
+    font-size: 14px !important;
+  }
+  .innerText {
+    font-size: 15px;
+  }
+  .getStartWrapper {
+    padding: 20px 40px;
+  }
+  .spendings {
+    font-size: 30px;
+  }
+  .getStart {
+    padding: 10px;
+  }
+}

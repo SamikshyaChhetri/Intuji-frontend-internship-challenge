@@ -1,0 +1,74 @@
+@media (max-width: 1100px) {
+  .wrapFaqDemo {
+    width: 80vw;
+  }
+  .wrap-inner-faq {
+    flex-direction: column !important;
+    gap: 20px;
+  }
+  .wrapQuestions {
+    width: 80vw;
+  }
+  .container4 {
+    flex-direction: column;
+  }
+  .div2 {
+    width: 80vw;
+  }
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .deco-img-2 {
+    display: none !important;
+  }
+  .users {
+    padding: 0 20px 0 0 !important;
+  }
+  .users {
+    display: grid !important;
+    /* justify-content: space-between; */
+    grid-template-columns: repeat(3, auto);
+
+    width: 100%;
+    padding-right: 0px;
+  }
+  .info-text-1 {
+    grid-column: span 3;
+    width: 100%;
+  }
+  .deco-br {
+    display: none;
+  }
+  .count {
+    font-size: 40px !important;
+  }
+  .text1 {
+    width: auto;
+  }
+  .recent-blog-title {
+    font-size: 40px !important;
+  }
+  .blog-img {
+    width: 250px !important;
+    height: 150px;
+  }
+  .wrapper7 {
+    flex-direction: row;
+    justify-content: left !important;
+  }
+
+  .blog2Wrapper {
+    grid-template-columns: repeat(1, auto);
+  }
+  .about {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+  }
+  .part1 {
+    width: 100%;
+  }
+}
